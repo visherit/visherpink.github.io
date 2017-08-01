@@ -1,0 +1,64 @@
+.ellements-platform{
+    min-height: 340px;
+    margin: 0;
+    background-color: #f2f2f2;
+    ul {
+        list-style: none;
+        padding: 0;
+        
+    }
+    li{
+        margin-bottom: 58px;
+        margin-top: 5px;
+        display: inline-block;
+    }
+     input{
+   position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+   margin-left: 50px;
+         visibility: hidden;
+    }
+    p{
+         padding: 0;
+        margin: 0;
+        text-transform: uppercase;
+        color:#d22856;
+        text-align: center;
+        padding-top: 25px;
+        
+    }
+    label{
+         font-size: 18px;
+         margin-left: 0px;
+        display:inline-block;
+        margin-top: 10px;
+    }
+}
+.ellements-platform__input:checked::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 15px;
+    visibility:visible;
+    background-color: #d22856;
+    border-radius: 50px;
+    z-index:3;
+    margin-left: -37px;
+    
+}
+.ellements-platform__input::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 50px;
+    z-index:2;
+    visibility: visible;
+    margin-left: -50px;
+     margin-top:-12px;
+}

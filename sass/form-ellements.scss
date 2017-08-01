@@ -1,0 +1,37 @@
+.ellements-fullname__label{
+    display: inline;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #d22856;
+    text-transform: uppercase;
+    margin-left: 23px;
+    
+    
+    
+}
+.ellements-fullname__input{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    
+    height: 60px;
+    width: 280px;
+}
+.form-ellements__submit{
+    width: 280px;
+    height: 65px;
+    background-color: green;
+}
+.form-submit__p{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 55px;
+    text-align: center;
+}
+.form-submit__span{
+    color:#d22856;
+}

@@ -1,0 +1,11 @@
+{
+    "name": "test-pink",
+    "version": "0.0.1",
+    "devDependencies": {
+        "grunt": "latest",
+        "grunt-browser-sync": "^2.2.0",
+        "grunt-contrib-sass": "^1.0.0",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-reload": "^0.2.0"
+    }
+}

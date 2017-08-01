@@ -1,0 +1,32 @@
+.index-nav__items{
+    background-color: #283645;
+    padding: 0;
+    margin: 0;
+}
+
+.index-nav__item{
+    display: block;
+    height: 60px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    border-top: 1px solid #485461;
+    border-bottom: 1px solid black;
+   
+}
+.index-nav__item a{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    font-size: 18px;
+    display:inline-block;
+    margin-top: 22px;
+    
+    
+}
+.logo_mobile{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}

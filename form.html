@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css"> </head>
+
+<body>
+    <header class="index-header">
+        <nav class="index-nav">
+            <div class="index-nav__wrapper">
+                <ul class="index-nav__items">
+                    <li class="index-nav__item logo_mobile"><img src="img/logo-mobile.png"></li>
+                    <li class="index-nav__item"><a href="#">Главная</a></li>
+                    <li class="index-nav__item"><a href="#">Фотографии</a></li>
+                    <li class="index-nav__item"><a href="#">Конкурс</a></li>
+                    <li class="index-nav__item"><a href="#">HTML Academy</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="form-main">
+        <section class="form-logo">
+            <div class="form-review">
+                <div class="container">
+                    <p>Конкурс на самое безбашенное путешествие с Пинк</p>
+                </div>
+            </div>
+            <div class="form-review2 clearfix">
+                <div class="container">
+                    <p>Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните </p>
+                </div>
+            </div>
+        </section>
+        <form class="form-ellements">
+            <article class="ellements-fullname container">
+                <label class="ellements-fullname__label">Фамилия:</label>
+                <input type="text" class="ellements-fullname__input" placeholder="Укажите фамилию*">
+                <label class="ellements-fullname__label">Имя:</label>
+                <input type="text" class="ellements-fullname__input" placeholder="Введите ваше имя*">
+                <label class="ellements-fullname__label">Отчество:</label>
+                <input type="text" class="ellements-fullname__input" placeholder="Ну и отчество тоже"> </article>
+            <article class="ellements-achivments ">
+                    
+                    <p>Ваши безбашенные достижения в приключении</p>
+                    
+                    <ul class="container">
+                        <li>
+                            <input type="checkbox" class="ellements-achivments__input test-check" id="ellements-achivments__input1"><span class="input-indicator"></span>
+                            <label class="ellements-achivments__label first_label" for="ellements-achivments__input1"> Сделал селфи с акулой</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="ellements-achivments__input test-check2" id="ellements-achivments__input2"><span class="input-indicator"></span>
+                            <label class="ellements-achivments__label" for="ellements-achivments__input2">Обгорел на пляже</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="ellements-achivments__input test-check3" id="ellements-achivments__input3"><span class="input-indicator"></span>
+                            <label class="ellements-achivments__label" for="ellements-achivments__input3">Видел Чака Норриса</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="ellements-achivments__input test-check4" id="ellements-achivments__input4"><span class="input-indicator"></span>
+                            <label class="ellements-achivments__label" for="ellements-achivments__input4">Накупил сувениров</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="ellements-achivments__input test-check5" id="ellements-achivments__input5"><span class="input-indicator"></span>
+                            <label class="ellements-achivments__label" for="ellements-achivments__input5">Удержал башню</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="ellements-achivments__input test-check6" id="ellements-achivments__input6"><span class="input-indicator"></span>
+                            <label class="ellements-achivments__label" for="ellements-achivments__input6">Разгромил отель</label>
+                        </li>
+                    </ul>
+               
+                
+            </article>
+            <article class="ellements-contacts">
+                <div class="container">
+                    <article class="ellements-contacts__label">Номер телефона</article>
+                    <input type="text" class="ellements-contacts__input" placeholder="Номер,пожалуйста">
+                    <article class="ellements-contacts__label">Адрес почты</article>
+                    <input type="text" class="ellements-contacts__input" placeholder="Введите почту*"> </div>
+            </article>
+            <article class="ellements-platform">
+                <div class="container">
+                    <p> С каким приложение путешествовали?</p>
+                    <ul>
+                        <li>
+                            <input name="platform" type="radio" class="ellements-platform__input" id="ellements-platform__input1"><span class="input-indicator"></span>
+                            <label for="ellements-platform__input1">Pink для iOS</label>
+                        </li>
+                        <li>
+                            <input name="platform" type="radio" class="ellements-platform__input" id="ellements-platform__input2"><span class="input-indicator"></span>
+                            <label for="ellements-platform__input2">Pink для Android</label>
+                        </li>
+                        <li>
+                            <input name="platform" type="radio" class="ellements-platform__input" id="ellements-platform__input3"><span class="input-indicator"></span>
+                            <label for="ellements-platform__input3">Windows Phone</label>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="ellements-review ">
+                <div class="container">
+                    <p class="ellements-review__p">Опишите своим эмоции</p>
+                    <textarea class="ellements-review__textarea"> Можно прям в красках, не стесняясь в выражениях </textarea>
+                </div>
+            </article>
+            <div class="container">
+                <article class="form-submit">
+                    <input type="submit" value="Вход" class="form-ellements__submit">
+                    <p class="form-submit__p"><span class="form-submit__span">*</span> - обязательные поля</p>
+            </div>
+            </article>
+        </form>
+    </main>
+    <footer class="form-footer container">
+        <div class="form-footer__logo"><img src="img/footer__logo.png"></div>
+        <div class="footer_social">
+            <a><img src="img/twitter.png"></a>
+            <a><img src="img/facebook.png"></a>
+            <a><img src="img/youtube.png"></a>
+        </div>
+        <div class="main-footer_copywrite"> <img class="form-footer__copywrite" src="img/copywrite.png"> </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+git status
+git add .
+git commit -m "firs comit"
+
+git push -u origin master
+----------------------------------
+Настройка плагина grunt-contrib-sass
+в gruntfile.js вписать grunt.loadNpmTasks("grunt-contrib-sass");
+Затем в этот же файл добавить в InitConfig такое:
+pkg:grunt.file.readJSON('package.json'),
+        sass: {
+            style: {
+                files: {
+                    "css/style.css": "sass/style.scss"
+                }
+            }
+            
+        }
+
+В package.json добавить:
+"grunt-contrib-sass": "^1.0.0"
+Запускать плагин посредством: grunt sass
+===============
+Настройка grunt-contrib-watch
+в gruntfile.js вписать    grunt.loadNpmTasks('grunt-contrib-watch');
+Затем в этот же файл добавить в InitConfig такое:
+        watch: {
+    sass: {
+        files: ['sass/*.scss'],
+        tasks: ['sass']
+    }
+}
+В package.json добавить:
+"grunt-contrib-watch": "^1.0.0"
+
+Запускать плагин посредством: grunt watch
+P.S. При изменении файла .scss в папке sass выполняет программу sass (grunt sass полное название)
+==============
+Настройка grunt-browser-sync
+В gruntfile.js вписать grunt.loadNpmTasks('grunt-contrib-watch');
+В package.json добавить:"grunt-browser-sync": "^2.2.0"
+Запускать плагин посредством:  browser-sync start --server --files "**/**/*.css"
+P.S. Отслеживает файлы типа .css и производит обновление при их изменении.
+
+

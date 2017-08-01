@@ -1,0 +1,25 @@
+body{
+    width: 320px;
+   
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container {
+    width: 280px;
+    margin: 0 auto;
+   
+}
+
+
+@import "firstblock.scss";
+@import "index-nav__items.scss";
+@import "form-logo.scss";
+@import "form-ellements.scss";   
+@import "ellements-achivments";
+@import "ellements-contacts.scss";
+@import "ellements-platform.scss";
+@import "ellements-review.scss";
+@import "form-footer";

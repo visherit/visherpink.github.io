@@ -1,0 +1,59 @@
+.ellements-achivments{
+    background-color:#f2f2f2;
+    padding-top: 20px;
+    min-height: 600px;
+    p{
+        padding: 0;
+        margin: 0;
+        text-transform: uppercase;
+        color:#d22856;
+        text-align: center;
+        padding-top: 10px;
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    
+    input{
+   position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    visibility:hidden;
+   margin-left: 60px;
+     
+    }
+    label{
+        font-size: 18px;
+        margin-top: 70px;
+        display: inline-block;
+        margin-left: 0px;
+    }
+
+    
+    }
+.test-check:checked::before,.test-check2:checked::before,.test-check3:checked::before ,.test-check4:checked::before ,.test-check5:checked::before ,.test-check6:checked::before  {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    display: block;
+    background-image: url(../img/tick.png);
+    background-repeat: no-repeat;
+   background-position:center;
+    visibility:visible;
+   margin-left: -50px;
+     margin-top: -10px;
+}
+.test-check::after, .test-check2::after,.test-check3::after,.test-check4::after,.test-check5::after,.test-check6::after{
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin-left: -40px;
+    margin-top: -10px;
+ border: 2px solid gray;
+    visibility:visible;
+}
